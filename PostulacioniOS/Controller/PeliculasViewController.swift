@@ -83,7 +83,7 @@ class PeliculasViewController: UIViewController {
     /**
      Funcion utilizada para consumir la api desde internet.
      * En caso de ocurrir un error, muestra un mensa informativo
-     *Si la peticion se ejecuta correctamente, se castean los datos a un arreglo temporal, posteriormente se almacenan en core data y se consultan los datos previamenten almacenados.
+     *Si la peticion se ejecuta correctamente, se castean los datos a un arreglo.
      */
     func consumirWebService(){
         peliculas = []
